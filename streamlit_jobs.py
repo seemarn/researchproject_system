@@ -1,16 +1,3 @@
-import sys
-import streamlit as st
-
-st.write("Python OK")
-
-try:
-    import spacy
-    st.success("spaCy loaded successfully")
-except Exception as e:
-    st.error("spaCy import failed")
-    st.exception(e)
-
-
 import streamlit as st
 import spacy
 import pandas as pd
@@ -453,4 +440,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
